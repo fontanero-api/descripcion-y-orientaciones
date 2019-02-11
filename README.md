@@ -1,9 +1,8 @@
 # Traducción del libro "Creating API's in R with Plumber"
 
-<a href="url"><img src="https://github.com/cienciadedatos/descripcion-y-orientaciones/blob/master/plumber.png" align="right" width="30%"></a>
-
 El objetivo del proyecto es realizar la traducción del libro [Creating API's in R with Plumber]("https://www.rplumber.io/docs/index.html") del autor Jeff Allen. 
-Nos basamos en la experiencia de traducción r4ds
+
+Para realizar la traducción de este libro, queremos seguir los pasos y la experiencia de traducción que han tenido en [ciencia de datos](https://github.com/cienciadedatos) con la traducción al español del libro [R para ciencia de datos](http://es.r4ds.hadley.nz/). 
 
 El proyecto pretende ser colaborativo, en donde la comunidad R pueda particiar activamente en la traducción del mismo. El libro es su versión original es un trabajo en proceso, por lo que la traducción también estará sujeta a cambios conforme se avance.
 
