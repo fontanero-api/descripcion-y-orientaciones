@@ -1,9 +1,20 @@
-# Proyecto de traducción colaborativa de R4DS
+# Traducción del libro "Creating API's in R with Plumber"
 
-<a href="url"><img src="https://github.com/cienciadedatos/descripcion-y-orientaciones/blob/master/R4DS.png" align="right" width="30%"></a>
+<a href="url"><img src="https://github.com/cienciadedatos/descripcion-y-orientaciones/blob/master/plumber.png" align="right" width="30%"></a>
 
-Este proyecto tiene por objetivo desarrollar una traducción colaborativa del libro [R for Data Science](http://r4ds.had.co.nz/) para la comunidad hispanoparlante.
+El objetivo del proyecto es realizar la traducción del libro [Creating API's in R with Plumber]("https://www.rplumber.io/docs/index.html") del autor Jeff Allen. 
+Nos basamos en la experiencia de traducción r4ds
 
+El proyecto pretende ser colaborativo, en donde la comunidad R pueda particiar activamente en la traducción del mismo. El libro es su versión original es un trabajo en proceso, por lo que la traducción también estará sujeta a cambios conforme se avance.
+
+Con el fin de no repetir trabajo, ser felices colaborando y disfrutar del proceso, tenemos reglas establecidad para una sana convivencia. Quien no se apegue a dichas reglas será rechazado del proceso de trabajo.
+
+Indicaciones para el proceso de traducción
+
+- Orientación
+- Flujo de trabajo
+- Roles
+- Revisión
 
 ## Código de conducta
 El proyecto de traducción de R4DS es un espacio abierto que tiene por objetivo la generación de recursos para la comunidad hispanohablante a través de una dinámica de trabajo colaborativa. Durante el proceso de traducción y revisión, se espera que las personas puedan participar libremente, compartiendo ideas, haciendo sugerencias, proponiendo cambios, analizando puntos de vista, etc., en un ambiente de respeto y colaboración. Asimismo, se espera que quienes participen hagan críticas justas, constructivas y propositivas, no juicios de valor.
