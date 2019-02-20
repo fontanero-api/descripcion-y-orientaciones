@@ -33,10 +33,4 @@
 | 29. R Markdown formats| rmarkdown-formats.Rmd | Paola Prieto| @paoprieto | lista | pendiente segund* revisor*|
 | 30. R Markdown workflow | rmarkdown-workflow.Rmd | Juliana Benitez | @julybenitez | lista | falta asignar revisor*s. Problemas con el _build_ |
 
-### Otros roles
 
-- **Coordinación general**: Riva Quiroga (@rivaquiroga)
-- **Editora de la traducción**: Riva Quiroga (@rivaquiroga)
-- **Administración repositorio R4DS**: Pacha (@pachamaltese)
-- **Responsable paquete traducción de datos**: Edgar Ruiz (@edgararuiz)
-- **Traducción imágenes**: Edgar Ruiz (@edgararuiz) y Pacha (@pachamaltese)
