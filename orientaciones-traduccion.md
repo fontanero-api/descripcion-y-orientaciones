@@ -12,7 +12,7 @@ __2. La variedad dialectal del español que ocuparemos en la traducción es la d
 * Evitaremos expresiones o usos locales/regionales, es decir, que no están extendidos en toda Latinoamérica.
 * No utilizaremos el voseo (_vos/vosotros_). R4DS está dirigido a una segunda persona, así que para cautelar la neutralidad la traduciremos como _tú_ (... _you'll learn_ > ... _aprenderás_). 
 
-__3. Género gramatical.__ A diferencia del inglés, el español tiene género gramatical (masculino, femenino y muy, pero muy pocos neutros). En general, como R4DS está dirigido a un _tú_ y se habla de datos, variables y funciones, hay pocas situaciones en las que haya que tomar una decisión respecto de cómo manejar este tema; pero las hay. Por ejemplo, acá: “... _for collaborating with other data scientists”_. Como son pocos casos, la idea es ir resolviéndolos a medida que aparezcan (Slack, canal #dudas-traducción).  En principio, las dos opciones más habituales que se han seguido en traducciones de este tipo son:
+__3. Género gramatical.__ A diferencia del inglés, el español tiene género gramatical (masculino, femenino y muy, pero muy pocos neutros). En general, como R4DS está dirigido a un _tú_ y se habla de datos, variables y funciones, hay pocas situaciones en las que haya que tomar una decisión respecto de cómo manejar este tema; pero las hay. Por ejemplo, acá: “... _for collaborating with other data scientists”_. Como son pocos casos, la idea es ir resolviéndolos a medida que aparezcanu.  En principio, las dos opciones más habituales que se han seguido en traducciones de este tipo son:
 
 * Usar el femenino para incluir al género gramatical poco representado: _para colaborar con otras científicas de datos._
 * Ajustar la redacción para evitar tener que asignar un género: _para colaborar con otras personas que trabajan en Ciencia de Datos._
@@ -115,15 +115,6 @@ Traducción:
 > * Escoger observaciones según sus valores (`filter()`  — del inglés _filtrar_).
 > * Reordenar las filas (`arrange()`  — del inglés _organizar_).
 
-__2. Datos.__ Este proyecto tiene asociado el desarrollo de un paquete con la traducción de los datos utilizados a lo largo del libro. Por lo tanto, es necesario instalarlo para el proceso de traducción.
-```r
-devtools::install_github("cienciadedatos/datos")
-```
-Los datos traducidos son `diamantes` (`ggplot2::diamonds`), `vuelos` (`nycflights13::flights`), `paises` (`gapminder::gapminder`), `millas` (`ggplot2::mpg`) y `encuesta`(`forcats::gss_cat`). Revisa el repositorio correspondiente para ver las indicaciones: https://github.com/cienciadedatos/datos.
-
-__Importante: No hay que olvidar agregar `library(datos)` en la sección de cada capítulo en que se cargan los paquetes que se utilizarán. En la misma línea, si en el capítulo se carga el set de datos con el formato `ggplot2::diamonds`, hay que modificarlo para que lo cargue desde el paquete datos: `datos:diamantes`.__
-
-Aún queda por resolver lo que haremos en el capítulo sobre manejo de _strings_. Lo mejor sería que los ejemplos estuviesen en español, pero el dataset utilizado (`stringr::sentences`) es muy grande (720 oraciones). Una opción es traducir una muestra de esos datos.
 
 __3. Los objetos/variables creados a partir de los datos se traducen, al igual que los títulos, etiquetas y nombres de ejes en los gráficos.__
 
@@ -153,6 +144,4 @@ no_cancelados <- vuelos %>%
 * Los títulos llevan mayúscula solo en la palabra inicial (salvo que incluyan un nombre propio).
 * Para consultar la forma convencional de una abreviatura en español, revisar este [enlace](http://www.rae.es/diccionario-panhispanico-de-dudas/apendices/abreviaturas). Hasta el momento ha aparecido _por ejemplo_ > _p. ej._.
 
-## ¿Dudas durante el proceso?
 
-Recuerda que cualquier duda que te surja puedes plantearla en el canal #dudas-traducción del Slack del proyecto. Todas las consultas son bienvenidas y útiles, ya que permiten ir acordando de manera conjunta los lineamientos a seguir. Las resoluciones que se tomen en ese canal se irán reflejando en este documento, por lo que es importante revisarlo con regularidad.
