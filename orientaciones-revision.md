@@ -1,4 +1,4 @@
-## Orientaciones para la revisión de la traducción de R4DS
+## Orientaciones para la revisión de la traducción de Fontanero-API
 
 ¡Muchas gracias por participar revisando traducciones!
 
