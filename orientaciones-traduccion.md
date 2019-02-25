@@ -1,4 +1,4 @@
-# Orientaciones para la traducción
+# Orientaciones para la **traducción** de Fontanero-API
 
 ## 0. Organización del trabajo
 Cada capítulo tiene asignada una persona a cargo de la traducción, que es responsable de que esta se lleve a cabo. La forma de organizarse queda a criterio de cada quien: se puede realizar de forma individual, buscar colaboradores o realizar una actividad abierta de traducción (por ejemplo, a través de RLadies o el grupo de Usarios de R (RUG) local.
@@ -10,7 +10,7 @@ __1. Al traducir lo que buscamos es generar una versión de cómo diríamos en e
 __2. La variedad dialectal del español que ocuparemos en la traducción es la de Latinoamérica__ (porque el posible público destinatario que la habla es más amplio). Trataremos de que sea una versión lo más neutra posible, por lo que:
 
 * Evitaremos expresiones o usos locales/regionales, es decir, que no están extendidos en toda Latinoamérica.
-* No utilizaremos el voseo (_vos/vosotros_). R4DS está dirigido a una segunda persona, así que para cautelar la neutralidad la traduciremos como _tú_ (... _you'll learn_ > ... _aprenderás_). 
+* No utilizaremos el voseo (_vos/vosotros_). Fontanero-API está dirigido a una segunda persona, así que para cautelar la neutralidad la traduciremos como _tú_ (... _you'll learn_ > ... _aprenderás_). 
 
 __3. Género gramatical.__ A diferencia del inglés, el español tiene género gramatical (masculino, femenino y muy, pero muy pocos neutros). En general, como R4DS está dirigido a un _tú_ y se habla de datos, variables y funciones, hay pocas situaciones en las que haya que tomar una decisión respecto de cómo manejar este tema; pero las hay. Por ejemplo, acá: “... _for collaborating with other data scientists”_. Como son pocos casos, la idea es ir resolviéndolos a medida que aparezcanu.  En principio, las dos opciones más habituales que se han seguido en traducciones de este tipo son:
 
@@ -43,14 +43,11 @@ __6. Las expresiones idiomáticas no son traducibles de manera literal.__ En cas
 Ejemplo:  
 > _it’s raining cats and dogs_ > _está lloviendo a cántaros_
 
-__7. Inconsistencias en el texto original.__ El texto original mezcla las primeras personas del singular y del plural. En la traducción siempre usaremos la primera persona del plural. Además, existen algunas inconsistencias en el uso de tiempos verbales en el original dentro de un mismo párrafo. La idea es arreglar la inconsistencia en la traducción.
-
-__8. Toma distancia para revisar.__ Cuando trabajamos mucho rato en un texto cuesta identificar errores de tipeo. Como sugerencia, una vez que termines la traducción del capítulo deja pasar algunas horas (o un día) antes de hacer la última lectura y enviarla. Eso hace más fácil que salten a la vista este tipo de detalles y permite que quienes hagan la revisión se concentren en la calidad de la traducción más que en correcciones ortotipográficas.
+__7. Toma distancia para revisar.__ Cuando trabajamos mucho rato en un texto cuesta identificar errores de tipeo. Como sugerencia, una vez que termines la traducción del capítulo deja pasar algunas horas (o un día) antes de hacer la última lectura y enviarla. Eso hace más fácil que salten a la vista este tipo de detalles y permite que quienes hagan la revisión se concentren en la calidad de la traducción más que en correcciones ortotipográficas.
 
 ## II. Traducción (o no) de términos técnicos.
 Hay términos técnicos que será necesario traducir y otros que no. El criterio suele estar en si existe una versión en español extendida (o entendible), o si se suele utilizar la versión original en inglés. En el caso de los últimos, hay que determinar qué género gramatical asignarle y si ofreceremos una traducción explicativa la primera vez que los utilicemos.
-A medida que avancemos con la traducción, la idea es ir discutiendo este punto en el canal #dudas-traducción. A partir de lo que se acuerde, iremos completando las siguientes listas de términos.
-
+A medida que avancemos con la traducción, la idea es ir discutiendo este punto en el canal a través de issues en el repositorio. A partir de lo que se acuerde, iremos completando las siguientes listas de términos.
 
 #### Términos técnicos que se traducen
 Pese a que hay términos que traduciremos al español, es importante que quien traduzca evalúe si corresponde mencionar de todos modos el término en inglés la primera vez. Por ejemplo, si bien _string_ es un término que tiene una traducción (_cadena de caracteres_) la primera vez que se menciona sería útil ofrecer también la versión en inglés, porque así resulta más claro por qué el paquete se llama __stringr__. Por ejemplo: "Este capítulo te introducirá en la manipulación de cadenas de caracteres (_strings_) en R.". En el caso de términos cuya traducción en español no está tan extendida, es necesario evaluar si corresponde agregar una pequeña explicación (por ejemplo, _mapping_ > "..._mapear, es decir, indicar qué variables se asignarán a cada eje_...".
