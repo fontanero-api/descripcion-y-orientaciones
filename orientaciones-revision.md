@@ -20,4 +20,4 @@ A continuación se presentan algunas indicaciones para el proceso:
 
 - Una vez terminada la revisión, puedes anunciarlo  con un mensaje por correo electrónico a ronny@ixpantia.com 
 
-NOTA: En el documento sobre el [flujo de trabajo](https://github.com/cienciadedatos/descripcion-y-orientaciones/blob/master/flujo-trabajo.md) encontrarás la descripción de todo el proceso.
+NOTA: En el documento sobre el [flujo de trabajo](https://github.com/fontanero-api/descripcion-y-orientaciones/blob/master/flujo-trabajo.md) encontrarás la descripción de todo el proceso.
