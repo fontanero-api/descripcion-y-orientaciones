@@ -7,8 +7,8 @@
 | 3. Routing & Input | 03-routing-and-input.Rmd | Ronny Hdez-Mora | @ronnyhdez | pendiente | no revisado |
 | 4. Rendering Output | 04-rendering-output.Rmd | Mauro Lepore | @maurolepore | pendiente | no revisado  |
 | 5. Runtime | 05-execution-model.Rmd | Ronny Fonseca | @fonva | pendiente | no revisado |
-| 6. Security | 06-security.Rmd | Lina Moreno | |  |  |  |
-| 7. Hosting | 07-hosting.Rmd | Pamela Matías | |  |  |  |
+| 6. Security | 06-security.Rmd |  | |  |  |  |
+| 7. Hosting | 07-hosting.Rmd |  | |  |  |  |
 | 8. Programmatic Usage | 08-programmatic-usage.Rmd | |  |  |  |
 | 9. Tips & Tricks | 09-tips-and-tricks.Rmd | |  |  |  |
 
